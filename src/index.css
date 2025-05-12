@@ -58,8 +58,6 @@ p {
   max-width: 700px;
   color: #cccccc;
   text-align: center;
-   align-items: center;
-  
 }
 nav {
   background-color: #1a1a1a;
@@ -90,4 +88,35 @@ nav ul li a {
 nav ul li a:hover {
   color: #646cff;
 }
+.equipe-container {
+  text-align: center;
+}
 
+.membros-lista {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.membro-link {
+  font-size: 1.1rem;
+  color: #61dafb;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.membro-link:hover {
+  transform: scale(1.1);
+  color: #ffffff;
+}
+.centered-page {
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}

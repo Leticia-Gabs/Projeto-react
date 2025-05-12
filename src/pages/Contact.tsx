@@ -1,17 +1,18 @@
 import { Link } from "react-router-dom";
 
 export function Contact() {
-  const membros = ["Leticia Gabriella", "Jeniffer Cristine", "Manuelle Macedo", "Dayvid Cristiano"];
+  const membros = ["Leticia Gabriella", "Jeniffer Cristine", "Manuele Macedo", "Dayvid Cristiano"];
+  
   return (
-    <div>
+    <div className="equipe-container">
       <h1>Equipe</h1>
-      <ul>
+      <div className="membros-lista">
         {membros.map(nome => (
-          <li key={nome}>
-            <Link to={`/member/${nome}`}>{nome.toUpperCase()}</Link>
-          </li>
+          <Link key={nome} to={`/member/${nome}`} className="membro-link">
+            {nome.toUpperCase()}
+          </Link>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

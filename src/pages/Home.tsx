@@ -1,6 +1,6 @@
 export function Home() {
   return (
-    <div>
+    <div className="centered-page">
       <h1>Bem-vindo ao projeto React com Vite!</h1>
     </div>
   );
