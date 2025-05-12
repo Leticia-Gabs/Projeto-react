@@ -15,7 +15,7 @@ export function About() {
     >
       <h1 style={{ marginBottom: "1rem" }}>Sobre</h1>
       <p style={{ fontSize: "1.2rem", maxWidth: "600px" }}>
-        Este projeto tem como objetivo apresentar os membros da equipe.
+        Este projeto foi feito para praticar React, rotas e componentes.
       </p>
     </div>
   );
